@@ -23,7 +23,7 @@
 
 ## Troubleshooting
 
-+ This section describes the problems the Seek-and-find experiment face si far and the solution that this approach give for each of them. The problems can belong to the alternate experiment or could emerged with the randomized experiment.
++ This section describes the problems the Seek-and-find experiment face so far and the solution that this approach give for each of them. The problems can belong to the alternate experiment or could emerged with the randomized experiment.
 
 > 1. **Go-and-come pattern:** This problem can make the experiment questionable, given that between, for example, perforate and solid barrier there are barely differences (results with a solid performance of 59% and perforate performance of 59% during same stages), which does not seem being convincing, since basics statistics say that every mice pair by chance have only 25% of success in every trial (is it really social cooperation?). 
 >> **Solution:** Random use of lights.
@@ -35,7 +35,7 @@
 
 ## Prediction
 
-+ This section describes my prediction for this experiment. This is the base that support the prosperity of my proposal. Are my results different from the ones of the alternate experiment? What kind of result do I expect?
++ This section describes my expected result for this experiment. This is the base that support the prosperity of my proposal. Are my results different from the ones of the alternate experiment? What kind of result do I expect?
 
 >  **Marked difference between perforate and solid barrier:** Given the decrease of the ease to grasp a pattern, I would expect a worst performance in the solid barrier compared with the perforate barrier, since would be harder to synchronize their movements to discover the available port.
-
+>  **less performace in all assays compared with the alternate experiment:** since mice won't know what port is available 
