@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Internship/Seek-and-find experiment.md",
+                "file": "Seek-and-find experiment.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Internship/Seek-and-find experiment.md",
+                "file": "Seek-and-find experiment.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Internship/Seek-and-find experiment.md",
+                "file": "Seek-and-find experiment.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Internship/Seek-and-find experiment.md"
+                "file": "Seek-and-find experiment.md"
               }
             }
           }
@@ -148,6 +148,11 @@
   },
   "active": "f2ea74afd99bea82",
   "lastOpenFiles": [
+    "Lazy&Go-and-come.png",
+    "lazyBehavior&Go-and-come.png",
+    "Seek-and-find experiment.md",
+    "Personal data UO.md",
+    "Bitacora.md",
     "Internship/Personal data UO.md",
     "Internship/Seek-and-find experiment.md",
     "Internship/Bitacora.md"
