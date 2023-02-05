@@ -23,10 +23,10 @@
 
 ### Specific objectives 
 
-> 1. Mice have to be able to use ports.
-> 2. Mice have to be able to receive treat using port at the "same time" (during a limited time range once a trial has started).
-> 3. Mice have to be able to receive treat using port at the "same time" (during a limited time range once a trial has started) without the help of the experimenter (lights).
-> 4. Mice must show a decrease in "performance" reciving treats when they are mutually isolated, that is, when they have lost any kind of "sense" of each other. 
+> 1. Through ligth signaling, mice have to learn to receive water using ports.
+> 1. Through light signaling, mice have to learn to receive water using their corresponding port at the "same time" (during a limited time range once a trial has started).
+> 2. Mice have to be able to receive water using their corresponding port at the "same time" (during a limited time range once a trial has started) without the help of the experimenter (lights).
+> 3. Mice must show a decrease in "performance" receiving water when they are mutually isolated, that is, when they have lost any kind of "sense" of each other. 
 
 ### General objective
 
