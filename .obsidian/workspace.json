@@ -1,19 +1,19 @@
 {
   "main": {
-    "id": "64af4d98092ca566",
+    "id": "31986006f1d9cf6f",
     "type": "split",
     "children": [
       {
-        "id": "17a46bc855a15992",
+        "id": "2d09d04c9f89ca7c",
         "type": "tabs",
         "children": [
           {
-            "id": "f2ea74afd99bea82",
+            "id": "7227ba5b48ffb37f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Seek-and-find experiment.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,15 +25,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "069e4b0a85cf0530",
+    "id": "bd75807b0d3be1be",
     "type": "split",
     "children": [
       {
-        "id": "bff226ffac1b8e26",
+        "id": "e4e5be3711db1441",
         "type": "tabs",
         "children": [
           {
-            "id": "c8f9a570fe64358f",
+            "id": "f8794ae233180c39",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,7 +43,7 @@
             }
           },
           {
-            "id": "fc730c6fe1053919",
+            "id": "eaf55c8f53027c0c",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -58,7 +58,7 @@
             }
           },
           {
-            "id": "d33a6377705ae416",
+            "id": "d45b8144ef0bc1b2",
             "type": "leaf",
             "state": {
               "type": "starred",
@@ -72,20 +72,20 @@
     "width": 300
   },
   "right": {
-    "id": "dd5dc23123bc7a76",
+    "id": "2544403b5b87037c",
     "type": "split",
     "children": [
       {
-        "id": "42e64ae0cdf5ba51",
+        "id": "df7d06b749b4aafc",
         "type": "tabs",
         "children": [
           {
-            "id": "f60047bb251a0e16",
+            "id": "06e3fab9397f2b39",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Seek-and-find experiment.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,19 +97,19 @@
             }
           },
           {
-            "id": "5c468628ea0feb24",
+            "id": "95b3bd1644e504d5",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Seek-and-find experiment.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "264bee9c6584ac03",
+            "id": "f86139212050e052",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -120,12 +120,12 @@
             }
           },
           {
-            "id": "2d7e785552d0c89c",
+            "id": "62154bfe74bb6616",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Seek-and-find experiment.md"
+                "file": "README.md"
               }
             }
           }
@@ -146,16 +146,6 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c8f9a570fe64358f",
-  "lastOpenFiles": [
-    "Bitacora.md",
-    "Experimental design.md",
-    "Personal data UO.md",
-    "Seek-and-find experiment.md",
-    "Ilustrations/Lazy&Go-and-come.png",
-    "lazyBehavior&Go-and-come.png",
-    "Internship/Personal data UO.md",
-    "Internship/Seek-and-find experiment.md",
-    "Internship/Bitacora.md"
-  ]
+  "active": "7227ba5b48ffb37f",
+  "lastOpenFiles": []
 }
