@@ -19,7 +19,18 @@
 
 ## Objectives
 
-> + objective.
++ This section describes the specifics objectives that need to be follow in order to achieve the general objective of the social cooperation.
+
+### Specific objectives 
+
+> 1. Mice have to be able to use ports.
+> 2. Mice have to be able to receive treat using port at the "same time" (during a limited time range once a trial has started).
+> 3. Mice have to be able to receive treat using port at the "same time" (during a limited time range once a trial has started) without the help of the experimenter (lights).
+> 4. Mice must show a decrease in "performance" reciving treats when they are mutually isolated, that is, when they have lost any kind of "sense" of each other. 
+
+### General objective
+
+> + Identify evidence of social cooperation through the use of the proposed mechanism.
 
 ## Key points
 
