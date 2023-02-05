@@ -1,7 +1,7 @@
-#ExperimentalDesign
+#ExperimentDescription
 
-+ This document does not describe the experimental design itself. It is more a report of this approach could have over the "traditional" approach.
-+ If this proposal is approved or taking into account, the idea with the experimental design would be built it from the same template established for the "traditional" approach, but with a few differences. 
++ This document is a descriptive report of the seek-and-find proposal. It describes all about how could this proposal achieve the purpose of the social cooperation project.
++ If this proposal is approved or taking into account, the idea with the experimental design would be build it from the same template established for the "traditional" approach, but with a few differences.
 + Here I refer to the normal or traditional experiment as the "alternative experiment" and to my proposal as the "randomized experiment" or seek-and-find experiment.
 
 
@@ -16,6 +16,10 @@
 
 > The state that this approach want to achieve is that, once mice are by their own (lights turned off), they would have to coordinate each other to find the available port, once mice discover the available pair of ports a new pair of port will be selected randomly after n seconds. the need for coordinate their movements in order to find the available pair of ports will make harder to find the available pair of ports the more isolated they are. 
 
+
+## Objectives
+
+> + objective.
 
 ## Key points
 
@@ -50,3 +54,7 @@
 >  **Less performace in all assays compared with the alternate experiment in early stages:** Since mice won't know what port is available, probably they will achieved less successful trials in the same time during the early stages.
 >  
 >  **Delayed learning:** Maybe mice could learn the mechanism's functionality in a slower rate than with the alternate experiment.
+
+## Experimental design
+
++ Refer to this document to see the [[Experimental design]].

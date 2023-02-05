@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Seek-and-find experiment.md",
+                "file": "Experimental design.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Seek-and-find experiment.md",
+                "file": "Experimental design.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Seek-and-find experiment.md",
+                "file": "Experimental design.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Seek-and-find experiment.md"
+                "file": "Experimental design.md"
               }
             }
           }
@@ -148,9 +148,10 @@
   },
   "active": "f2ea74afd99bea82",
   "lastOpenFiles": [
+    "Experimental design.md",
+    "Seek-and-find experiment.md",
     "Lazy&Go-and-come.png",
     "lazyBehavior&Go-and-come.png",
-    "Seek-and-find experiment.md",
     "Personal data UO.md",
     "Bitacora.md",
     "Internship/Personal data UO.md",
