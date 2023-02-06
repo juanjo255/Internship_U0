@@ -3,10 +3,14 @@
 + This document is a descriptive report of the seek-and-find proposal. It describes all about how could this proposal achieve the purpose of the social cooperation project.
 + If this proposal is approved or taking into account, the idea with the experimental design would be build it from the same template established for the "traditional" approach, but with a few differences.
 + Here I refer to the normal or traditional experiment as the "alternative experiment" and to my proposal as the "randomized experiment" or seek-and-find experiment.
+----
 
 
 ```toc
 ```
+
+
+----
 
 
 
