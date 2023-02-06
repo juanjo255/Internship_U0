@@ -1,0 +1,25 @@
+1.  -   Whichever mouse reaches port first, will initialize a 1 second trial on that side.
+    -   The second mouse will have that time to reach it and obtain a reward.
+    -   A reward will only be given if they both insert their nose into the same port within the 1 seconds they are granted.
+    -   The initiating mouse does not get its reward simply for inserting nose first into a port. They will have to wait until the trailing mouse pokes the same side to obtain reward.
+    -   A reward is only given when both mice poke the same side within 1 seconds of each other.
+    -   The first trial will be the south side of the rig. Trials will alternate from then on.
+    -   Both mice will either get a reward or not.
+    -   After the 1 second period regardless of whether a reward was given or not, either mouse can initiate another trial by running to the opposite side and inserting the nose in port.
+    -   Reward is obtainable for the whole 1 second period.
+    -   If an animal does not poke, no reward will occur for either.
+    -   Only one reward per time period per track.
+    -   After fail (only first mouse initiates and second mouse does not activate port within 1 second window) The active port will be on the opposite side of the rig.
+2.  **Criteria for moving to next stage: 500 initiated trials for 3 consecutive days with greater than 50% rewarded(we were unable to achieve this, consider moving boundary for moving to next stage downward)**
+
+#### Set parameters[[edit](http://jarahub.uoregon.edu/mediawiki/index.php?title=Study:_Cooperation_in_mice&action=edit&section=12 "Edit section: Set parameters")]
+
+-   Session Info: default
+-   Water delivery: 0.03 sec
+-   Timing parameters:
+    -   Wait time: 1 sec
+    -   Inter-trial interval: 0 sec
+-   General parameters:
+    -   Barrier type: perforated
+-   Task mode: cooperate
+-   Next port after fail: Alternate
