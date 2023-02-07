@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f2ea74afd99bea82",
+            "id": "4a13110b7de2d2ef",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Seek-and-find experiment.md",
+                "file": "Social_coop/Experimental design.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Seek-and-find experiment.md",
+                "file": "Social_coop/Experimental design.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Seek-and-find experiment.md",
+                "file": "Social_coop/Experimental design.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Seek-and-find experiment.md"
+                "file": "Social_coop/Experimental design.md"
               }
             }
           }
@@ -146,16 +146,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c8f9a570fe64358f",
+  "active": "4a13110b7de2d2ef",
   "lastOpenFiles": [
-    "Bitacora.md",
-    "Experimental design.md",
-    "Personal data UO.md",
+    "Social_coop/Exp_design/Stage 4.md",
+    "Social_coop/Exp_design/Stage 3.md",
+    "Ilustrations/success_1sec.png",
+    "Social_coop/Exp_design/Stage 2.md",
+    "Social_coop/Experimental design.md",
+    "Social_coop/Seek-and-find approach description.md",
+    "Social_coop/Exp_design/Stage 1.md",
+    "Ilustrations/success_3secs_stages.png",
     "Seek-and-find experiment.md",
-    "Ilustrations/Lazy&Go-and-come.png",
-    "lazyBehavior&Go-and-come.png",
-    "Internship/Personal data UO.md",
-    "Internship/Seek-and-find experiment.md",
-    "Internship/Bitacora.md"
+    "Bitacora.md"
   ]
 }

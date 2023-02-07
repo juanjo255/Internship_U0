@@ -9,15 +9,19 @@
 
 # Detail description
 
-> + The first trial will be randomly chosed. Trials will change randomly from then on, but only when mice get the water (successful trial).
-> + Whichever mouse reaches port first, both lights on the same side will turn on for 3 seconds and the second mouse will have that time to reach it and obtain a reward.
-> + **A reward will only be given if they both insert their nose into the same port within the 3 seconds they are granted.**
-> + Reward is obtainable for the whole 3 second period.
-> + Two lights on the same side turn on at the same time by the “initiating” mouse (whichever mouse runs to a port first).
-> + The initiating mouse is the one who finds the available port first, after the initianing mouse will have to wait until the other mouse poke to obtain the water.
-> + When time is over and the light is off, mice will have to wait 3 seconds before try again. regardless of if the trial succeeds (the second mouse poke after the initiating during the 3 seconds window) or fails (only the initiating mouse poked) the 3 seconds timeout is applied, but if trial fails the port will not be randomly selected again, stays the same.
+> + The first trial will be in the ports of a randomly selected side of the rig. Thereafter, the side with the available port pair will continue to be randomly selected.
+> + A trial starts with the mouse inserting firts its nose into the port of the side (north or south) chosen randomly to be available, then both lights bulbs on the same side will turn on for 3 seconds and the other mouse will have that time to reach it and obtain a reward.
+> + **Once one of them has initiated a trial, a reward will only be given for both if they both insert their nose into the ports on the same side within the 3 seconds they are granted (successful trial, otherwise, failed trial). See graphical demostration.**
+> + After the 3 second period when ligths are off, regardless of whether a reward was given or not, mice have to wait 3 second before try again. A new side will not be chosen randomly again until mice achieve a successful trial.
+> + **Criteria for moving to next stage: Mice must spend three training sessions on this stage as well as have 800 initiated trials minimum per day.** Next Stage: [[Stage 3]].
 
-## Parameter
+
+## Graphic demonstration
+
+
+![[success_3secs_stages.png | 500]]
+
+## Set parameter
 
 > + Session Info: default
 > + Water delivery: 0.03 sec
@@ -25,7 +29,7 @@
 >> + Wait time: 3 sec
 >> + Inter-trial interval: 3 sec
 > + General parameters:
-> + Barrier type: perforated
+>> + Barrier type: perforated
 > + Task mode: reward_on_last_poke
 > + Next port after fail: Fixed
 
