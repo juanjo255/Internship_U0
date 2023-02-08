@@ -52,7 +52,7 @@
 
 ## Hard learning
 
-> + I was thinking that could be difficult to mice jump from the stage 1 to stage 2 where stage one teach them to use ports and inmidiatly stage 2 force them to discover the available pair of ports together.
+> + I was thinking that could be difficult to mice jump from the stage 1 to stage 2 where stage 1 teachs them to use ports and immediately stage 2 force them to discover the available pair of ports together.
 >> + **Possible solution:** Maybe mice will need an extra stage before stage 2 same as this but with lights turning on indicating availability of port and not releasing water until they both arrive to the borth within a time window once a trial has started.
 
 ## Desperate behavior
