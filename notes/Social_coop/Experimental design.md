@@ -1,9 +1,12 @@
 
 + This document describes the experimental design that will be apply to achieved the objectives of the social cooperation project escribed in [[Seek-and-find approach description]] document.
 
+```toc
+```
+
 ----
 
-# Training stages
+## Training stages
 
 + This section describes each training stage need for achieve social cooperation project goal.
 + Training will concist of 4 stages with the same organization as in the alternate experiment.
@@ -13,7 +16,7 @@
 
 
 
-## Stage 1
+### Stage 1
  
 + **Goal:** To familiarize mice with ports and reward systems using lights.
 + **Task:** Mouse has to insert nose in port when the light comes on (controlled by experimenter) to obtain reward (water).
@@ -22,7 +25,7 @@
 ----
 
 
-## Stage 2
+### Stage 2
 
 + **Goal:** To teach mice to synchronize port activation for reward.
 + **Task:** Mice must coordinate poking of ports to obtain reward within 3 second window (Task mode: Reward_on_last_poke).
@@ -31,7 +34,7 @@
 ----
 
 
-## Stage 3
+### Stage 3
 
 + **Goal:** To teach mice to synchronize port activation for reward without light as a stimulus (LED will still flash when reward is granted to both mice)
 + **Task:** Mice must coordinate poking of ports the obtain reward within 3 second window (Task Mode: cooperate)
@@ -40,7 +43,7 @@
 ----
 
 
-## Stage 4
+### Stage 4
 
 + **Goal:** To teach mice to synchronize port activation in a shorter time period for reward without light as a stimulus.(LED will still flash when reward is granted to both mice).
 + **Task:** Mice must coordinate poking of ports to obtain reward within 1 second window (Task Mode: cooperate).
@@ -48,14 +51,18 @@
 
 
 
-# Troubleshootings
+## Troubleshootings
 
-## Hard learning
+### Hard learning
 
 > + I was thinking that could be difficult to mice jump from the stage 1 to stage 2 where stage 1 teachs them to use ports and immediately stage 2 force them to discover the available pair of ports together.
 >> + **Possible solution:** Maybe mice will need an extra stage before stage 2 same as this but with lights turning on indicating availability of port and not releasing water until they both arrive to the borth within a time window once a trial has started.
 
-## Desperate behavior
+### Desperate behavior
 
 > + I was thinking that the inter-trial interval might give them despair since nothing happens during that time and that could be leading them to not focus on the purpose of the task, which is to find the available port together after a period of time has passed, therefore they do not learn or learn take much time.
 >> + **Possible solution:** Maybe during early stages, turn all lights on during the inter-trial interval in a static mode o flashing mode (maybe this could produce a stress state).
+
+### Incomplete isolation
+
+> + Do they can hear each other through the solid barrier? In some of the videos I watched I noticed that during the solid barrier they were almost like capable of arrive to the same side as their partner, could be only coincidence, but I started suspect that they can hear each other and that is a kind of communication. 
