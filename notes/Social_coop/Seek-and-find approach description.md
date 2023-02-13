@@ -73,7 +73,3 @@
 ## Experimental design
 
 + Refer to this document to see the [[Experimental design]].
-
-## Results
-
-+ Refer to this document [[Results]] to see all related to the presentation of results from seek-and-find approach.
