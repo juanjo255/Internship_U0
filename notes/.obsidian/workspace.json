@@ -18,8 +18,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "10e949521d153071",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Social_coop/Seek-and-find approach description.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cdd7510bf8c63095",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Social_coop/Exp_design/Stage 2.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Social_coop/Experimental design.md",
+                "file": "Social_coop/Seek-and-find approach description.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Social_coop/Experimental design.md",
+                "file": "Social_coop/Seek-and-find approach description.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Social_coop/Experimental design.md"
+                "file": "Social_coop/Seek-and-find approach description.md"
               }
             }
           }
@@ -146,17 +171,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4a13110b7de2d2ef",
+  "active": "10e949521d153071",
   "lastOpenFiles": [
-    "Social_coop/Seek-and-find approach description.md",
     "Social_coop/Experimental design.md",
-    "Social_coop/Results.md",
-    "Personal data UO.md",
     "Social_coop/Exp_design/Stage 1.md",
     "Social_coop/Exp_design/Stage 2.md",
-    "Social_coop/Exp_design/Stage 4.md",
     "Social_coop/Exp_design/Stage 3.md",
-    "Ilustrations/success_1sec.png",
-    "Ilustrations/success_3secs_stages.png"
+    "Social_coop/Exp_design/Stage 4.md",
+    "Social_coop/Seek-and-find approach description.md",
+    "Ilustrations/lazy.png",
+    "Ilustrations/Go-and-come.png",
+    "Ilustrations/coop.png",
+    "Ilustrations/parallel_plot.png"
   ]
 }

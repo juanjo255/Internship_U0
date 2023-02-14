@@ -18,14 +18,15 @@
 
 ## Set parameters
 
-> + **Session Info:** default
-> + **Water delivery:** 0.03 sec
-> + **Timing parameters:**
->> + **Wait time:** 3 sec
+> + Session Info: default
+> + Water delivery: 0.03 sec
+> + **Limited port use**: 3
+> + Timing parameters:
+>> + Wait time: 3 sec
 >> + **Inter-trial interval:** 3 sec
-> + **General parameters:**
->> + **Barrier type:** perforated
-> + **Task mode:** auto_lights
+> + General parameters:
+>> + Barrier type: perforated
+> + Task mode: auto_lights
 > + **Next port after fail:** Fixed
 
 

@@ -19,10 +19,11 @@
 
 > + Session Info: default
 > + Water delivery: 0.03 sec
+> + **Limited port use**: 3
 > + Timing parameters:
 >> + Wait time: 1 sec
->> + Inter-trial interval: 3 sec
+>> + **Inter-trial interval:** 3 sec
 > + General parameters:
 >> + Barrier type: perforated
 > + Task mode: cooperate
-> + Next port after fail: Fixed
+> + **Next port after fail:** Fixed
