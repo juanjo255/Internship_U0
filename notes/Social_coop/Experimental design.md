@@ -5,11 +5,15 @@
 ```
 
 ----
+
 ## General points
 > This section describes the points that all stages fullfilled.  
 >>  + Inter-trial interval is only applied if mice achieve a successful trial (meaning of successfull trial can change with each stage).
 >>  + A new randomly pair of ports is selected only if mice achieve a successful trial.
 >>  + Limited use of usage is established in all stages.
+
+----
+
 ## Training stages
 
 + This section describes each training stage need for achieve social cooperation project goal.
@@ -60,11 +64,43 @@
 
 
 
+
+----
+
 ### [[Stage 2]]
 
-+ **Goal:** To teach mice to synchronize between them port activation for reward (through ligths).
-+ **Task:** Mice must coordinate poking of ports to obtain reward within 3 second window (Task mode: Reward_on_last_poke). Lights turn on once a mouse has started a trial poking its nose into the available port on the randomly chose side. 
-+ **Details and parameters:** [[Stage 2]]
+#### Objectives
+
+> ##### General objective
+>> + Teach mice to synchronize port activation for reward (using lights).
+> ##### Specific objective
+>> + Mice must coordinate poking of ports to obtain reward within 3 second window (Task mode: Reward_on_last_poke). Lights are turned on when either of the mice start a trial inserting its nose into the available port on the randomly chose side.
+
+
+#### Detail description
+
+> + The first trial will be in the ports of a randomly selected side of the rig. Thereafter, the side with the available pair of ports  will continue to be randomly selected.
+> + A trial starts with the mouse inserting first its nose into the port of the available side (north or south) chosen randomly, then both lights bulbs on the same side will turn on for 3 seconds and the other mouse will have that time to reach it and obtain a reward.
+> + **Once one of them has initiated a trial, a reward will only be given for both if they both insert their nose into the ports on the same side within the 3 seconds they are granted (successful trial, otherwise, failed trial). See graphical demostration bellow.**
+>  ![[success_3secs_stages.png | 400]]
+> + After the 3 second period when ligths are off, only if they achieve a successful trial a Inter-trial interval (3 sec) will applied and a new side will be chosen randomly, otherwise the same side will turn lights on again immediately.
+> + **Criteria for moving to next stage: 500 initiated trials for 3 consecutive days with greater than 50% rewarded.** Next Stage: [[Stage 3]].
+
+
+
+## Set parameter
+
+> + Session Info: default
+> + Water delivery: 0.03 sec
+> + **Limited port use**: 3
+> + Timing parameters:
+>> + Wait time: 3 sec
+>> + **Inter-trial interval:** 3 sec
+> + General parameters:
+>> + Barrier type: perforated
+> + Task mode: reward_on_last_poke
+> + **Next port after fail:** Fixed
+
 
 ----
 
