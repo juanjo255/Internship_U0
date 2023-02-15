@@ -1,19 +1,20 @@
 
 + This document describes the experimental design that will be apply to achieved the objectives of the social cooperation project escribed in [[Seek-and-find approach description]] document.
 
+
 ```toc
 ```
 
 ----
 
 ## General points
-> This section describes the points that all stages fullfilled.  
+> + This section describes the points that all stages fullfilled.  
 >>  + Inter-trial interval is only applied if mice achieve a successful trial (meaning of successfull trial can change with each stage).
 >>  + A new randomly pair of ports is selected only if mice achieve a successful trial.
->>  + Limited use of usage is established in all stages.
+>>  + Limited use of ports is established in all stages.
 
-----
 
+---
 ## Training stages
 
 + This section describes each training stage need for achieve social cooperation project goal.
@@ -21,8 +22,6 @@
 
 
 ----
-
-
 
 ### [[Stage 1]]
 
@@ -88,7 +87,7 @@
 
 
 
-## Set parameter
+#### Set parameter
 
 > + Session Info: default
 > + Water delivery: 0.03 sec
@@ -105,22 +104,75 @@
 ----
 
 
-### Stage 3
+### [[Stage 3]]
 
-+ **Goal:** To teach mice to synchronize port activation for reward without light as a stimulus (LED will still flash when reward is granted to both mice)
-+ **Task:** Mice must coordinate poking of ports the obtain reward within 3 second window (Task Mode: cooperate). Only if mice get the reward, next available pair of ports is selected randomly, otherwise stay the same.
-+ **Details and parameters:** [[Stage 3]]
+#### Objectives
+
+> ##### General objective
+>> + To teach mice to synchronize port activation for reward without light as a stimulus (LED will still flash when reward is granted to both mice)
+> ##### Specific objective
+>> + Mice must coordinate poking of ports the obtain reward within 3 second window (Task Mode: cooperate). Only if mice get the reward, next available pair of ports is selected randomly, otherwise stay the same.
+
+
+#### Detail description
+
+> + A trial starts with the mouse inserting firts its nose into the port of the side (north or south) chosen randomly to be available.
+> + **Once one of them has initiated a trial, a reward will only be given for both if they both insert their nose into the ports on the same side within the 3 seconds they are granted  (successful trial, otherwise, failed trial). See graphical demostration bellow.**
+> ![[success_1sec.png | 400]]
+> + The first trial will be in the randomly selected side of the rig. Thereafter, the side with the available port pair will continue to be randomly selected.
+> + After the 3 second period regardless of whether a reward was given or not, mice have to wait 3 second before try again. A new side will not be chosen randomly again until mice achieve a successful trial.
+> + **Criteria for moving to next stage: 500 initiated trials for 3 consecutive days with greater than 50% rewarded.** Next Stage [[Stage 4]].
+
+#### Set parameters
+
+> + Session Info: default
+> + Water delivery: 0.03 sec
+> + **Limited port use**: 3
+> + Timing parameters:
+>> + Wait time: 3 sec
+>> + **Inter-trial interval:** 3 sec
+> + General parameters:
+>> + Barrier type: perforated
+> + Task mode: cooperate
+> + **Next port after fail:** Fixed
 
 ----
 
 
-### Stage 4
+### [[Stage 4]]
 
-+ **Goal:** To teach mice to synchronize port activation in a shorter time period for reward without light as a stimulus.(LED will still flash when reward is granted to both mice).
-+ **Task:** Mice must coordinate poking of ports to obtain reward within 1 second window (Task Mode: cooperate).
-+ **Details and parameters:** [[Stage 4]]
+#### Objectives
+
+> ##### General objective
+>> + To teach mice to synchronize port activation in a shorter time period for reward without light as a stimulus.(LED will still flash when reward is granted to both mice).
+> ##### Specific objective
+>> + Mice must coordinate poking of ports to obtain reward within 1 second window (Task Mode: cooperate).
+
+#### Detail description
+
+> + A trial starts with the mouse inserting first its nose into the port of the available side (north or south) selected randomly.
+> + **Once one of them has initiated a trial, a reward will only be given for both if they both insert their nose into the ports on the same side within the 1 seconds they are granted  (successful trial, otherwise, failed trial).**
+> + The first available pair of ports will be in the side of the rig selected randomly. Thereafter, the side with the available port pair will continue to be randomly selected.
+> + Only if mice achieve a successful trial the Inter-trial interval (3 sec) will be applied and a new pair of ports will be selected to be available.
+> + **Criteria for moving to next stage: 500 initiated trials for 3 consecutive days with greater than 50% rewarded(we were unable to achieve this, consider moving boundary for moving to next stage downward)**
+
+#### Set parameters
+
+> + Session Info: default
+> + Water delivery: 0.03 sec
+> + **Limited port use**: 3
+> + Timing parameters:
+>> + Wait time: 1 sec
+>> + **Inter-trial interval:** 3 sec
+> + General parameters:
+>> + Barrier type: perforated
+> + Task mode: cooperate
+> + **Next port after fail:** Fixed
 
 
+
+
+----
 
 ## Troubleshootings
 
@@ -143,8 +195,14 @@
 
 ### Criteria to move to the next stage
 
-> + **Precedent:** Criteria for moving to the next stage were developed by first estimating what approximate performance would demonstrate that the mice had mastered the task they are on. After that, adjustments were made based on what level the mice actually were able to perform at in a realistic amount of time. In summary, the criteria for moving from one stage to another should allow for the mice to fully learn the stage they are on. If you are changing parameters there will probably be some guesswork and you will probably have to experiment to find the right criteria for moving to the next stage.
-> + **My thinking:** **How would I estimate the requirements for move forward?** I would mean the number of rewards obtained by each mouse in stage 1 (since there they are working alone), then if they are working together we can assume them as single individual, so the theorical estimation would be that to move to the next stage they would have to achieve a number of rewards similar (or less) to that computed mean. However, all is behavior-dependent. **(just rumbling now)** When comparing the first day of training of each stage with any of the next days we have to see an increment close to the 25% (if they are no working together as in the first day, each mouse has 50% of reach the correct port and to receive the reward together they have 25%. If they start to work together assuming that they are a same individual they will have chances of 50% to get the reward. Then, increment of 25%)
+> + **Precedent (Brigid):** Criteria for moving to the next stage were developed by first estimating what approximate performance would demonstrate that the mice had mastered the task they are on. After that, adjustments were made based on what level the mice actually were able to perform at in a realistic amount of time. In summary, the criteria for moving from one stage to another should allow for the mice to fully learn the stage they are on. If you are changing parameters there will probably be some guesswork and you will probably have to experiment to find the right criteria for moving to the next stage.
+> + **My thinking:** **How would I estimate the criteria for move forward?** using the collected data, I would compute the mean of the rewards obtained by each mouse in stage 1 (since there they are working alone), then if they are working together we can assume them as single individual, so the theorical estimation would be that, to move to the next stage, they would have to achieve a number of rewards similar **(The question then would be how much difference can be between both values? (standard deviation? t-test?))** to the computed mean. However, all is behavior-dependent. Lets see an example:
+> ![[means.png]]
+> + The image above shows three means. Pretty similar, right? 
+> + **(I am just rambling now, this would be applied to move from stage 2)** When comparing the first day of training of each stage with any of the next days we have to see an increment close to the 25% (if they are not working together as in the first day of training, each mouse has 50% of reaching the correct port and to receive the reward together they have 25%. If they start to work together assuming that they are a same individual they will have chances of 50% to get the reward. Then, increment of 25%). **Lets see some examples in brigids data**
+![[Pasted image 20230214153904.png]]
+In the image above, we can see increments up to 23%, however is hard to see the difference here, because of the go-and-come patter that was taught since stage 1.
+----
 
 ## Results
 
