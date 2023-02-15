@@ -99,30 +99,20 @@ This problem can make the experiment questionable, given that between, for examp
 ----
 
 
-## Predictions
-
-+ This section describes my predictions for this experiment. This is the base that support the prosperity of my proposal. Are my results different from the ones of the alternate experiment? What kind of result do I expect?
-
->  **Marked difference between perforate and solid barrier:** Given the decrease of the ease to grasp a pattern, I would expect a worst performance in the solid barrier compared with the perforate barrier, since would be harder to synchronize their movements to discover the available port.
->  
->  **Less performace in all assays compared with the alternate experiment in early stages:** Since mice won't know what port is available, probably they will achieved less successful trials in the same time during the early stages.
->  
->  **Delayed learning:** Maybe mice could learn the mechanism's functionality in a slower rate than with the alternate experiment.
-
 ## Experimental design
 
 + This document describes the experimental design that will be apply to achieved the objectives of the social cooperation project escribed in [[Seek-and-find approach description]] document.
 ----
 
-## General points
+### General points
 > + This section describes the points that all stages fullfill.  
->>  + Inter-trial interval is only applied if mice achieve a successful trial (meaning of successfull trial can change with each stage).
+>>  + Inter-trial interval is only applied if mice achieve a successful trial.
 >>  + A new randomly pair of ports is selected only if mice achieve a successful trial.
 >>  + Limited use of ports is established in all stages, that is, a port will not be available more than n times in a row.
 
 
 ---
-## Training stages
+### Training stages
 
 + This section describes each training stage need for achieve social cooperation project goal.
 + Training will concist of 4 stages with the same organization as in the alternate experiment.
@@ -130,18 +120,18 @@ This problem can make the experiment questionable, given that between, for examp
 
 ----
 
-### [[Stage 1]]
+#### Stage 1
 
-#### Objectives
+##### Objectives
 
-> ##### General objective
+> ###### General objective
 > + Familiarize mice with ports and reward systems using lights.
-> ##### Specifics objectives
+> ###### Specifics objectives
 > + Mouse has to insert their nose into the port when the light turns on (controlled by experimenter) to obtain reward (water).
 > + Both mice can get their reward if they insert their nose into the port when the light is turned on. 
 
 
-#### Detail description
+##### Detail description
 
 > + Two mice at the same time (on different tracks).
 > + To get reward, a mouse has to insert its nose into a port while the light is on.
@@ -150,7 +140,7 @@ This problem can make the experiment questionable, given that between, for examp
 > + **The light will turn on for 3 seconds, after that time will be a 3 seconds timeout (Inter-trial interval) only if it has been successful (mouse get the reward). A new side will be selected randomly only if a mouse get the reward, otherwise the same side will turn on**.
 > + **Criteria for moving to next stage: Mice must spend three training sessions on this stage as well as have 800 initiated trials minimum per day.** Next Stage: [[Stage 2]].
 
-#### Set parameters
+##### Set parameters
 
 > + Session Info: default
 > + Water delivery: 0.03 sec
@@ -166,17 +156,17 @@ This problem can make the experiment questionable, given that between, for examp
 
 ----
 
-### [[Stage 2]]
+#### Stage 2
 
-#### Objectives
+##### Objectives
 
-> ##### General objective
+> ###### General objective
 >> + Teach mice to synchronize port activation for reward (using lights).
-> ##### Specific objective
+> ###### Specific objective
 >> + Mice must coordinate poking of ports to obtain reward within 3 second window (Task mode: Reward_on_last_poke). Lights are turned on when either of the mice start a trial inserting its nose into the available port on the randomly chose side.
 
 
-#### Detail description
+##### Detail description
 
 > + The first trial will be in the ports of a randomly selected side of the rig. Thereafter, the side with the available pair of ports  will continue to be randomly selected.
 > + A trial starts with the mouse inserting first its nose into the port of the available side (north or south) chosen randomly, then both lights bulbs on the same side will turn on for 3 seconds and the other mouse will have that time to reach it and obtain a reward.
@@ -187,7 +177,7 @@ This problem can make the experiment questionable, given that between, for examp
 
 
 
-#### Set parameter
+##### Set parameter
 
 > + Session Info: default
 > + Water delivery: 0.03 sec
@@ -204,17 +194,17 @@ This problem can make the experiment questionable, given that between, for examp
 ----
 
 
-### [[Stage 3]]
+#### Stage 3
 
-#### Objectives
+##### Objectives
 
-> ##### General objective
+> ###### General objective
 >> + To teach mice to synchronize port activation for reward without light as a stimulus (LED will still flash when reward is granted to both mice)
-> ##### Specific objective
+> ###### Specific objective
 >> + Mice must coordinate poking of ports the obtain reward within 3 second window (Task Mode: cooperate). Only if mice get the reward, next available pair of ports is selected randomly, otherwise stay the same.
 
 
-#### Detail description
+##### Detail description
 
 > + A trial starts with the mouse inserting firts its nose into the port of the side (north or south) chosen randomly to be available.
 > + **Once one of them has initiated a trial, a reward will only be given for both if they both insert their nose into the ports on the same side within the 3 seconds they are granted  (successful trial, otherwise, failed trial). See graphical demostration bellow.**
@@ -223,7 +213,7 @@ This problem can make the experiment questionable, given that between, for examp
 > + After the 3 second period regardless of whether a reward was given or not, mice have to wait 3 second before try again. A new side will not be chosen randomly again until mice achieve a successful trial.
 > + **Criteria for moving to next stage: 500 initiated trials for 3 consecutive days with greater than 50% rewarded.** Next Stage [[Stage 4]].
 
-#### Set parameters
+##### Set parameters
 
 > + Session Info: default
 > + Water delivery: 0.03 sec
@@ -239,16 +229,16 @@ This problem can make the experiment questionable, given that between, for examp
 ----
 
 
-### [[Stage 4]]
+#### Stage 4
 
-#### Objectives
+##### Objectives
 
-> ##### General objective
+> ###### General objective
 >> + To teach mice to synchronize port activation in a shorter time period for reward without light as a stimulus.(LED will still flash when reward is granted to both mice).
-> ##### Specific objective
+> ###### Specific objective
 >> + Mice must coordinate poking of ports to obtain reward within 1 second window (Task Mode: cooperate).
 
-#### Detail description
+##### Detail description
 
 > + A trial starts with the mouse inserting first its nose into the port of the available side (north or south) selected randomly.
 > + **Once one of them has initiated a trial, a reward will only be given for both if they both insert their nose into the ports on the same side within the 1 seconds they are granted  (successful trial, otherwise, failed trial).**
@@ -256,7 +246,7 @@ This problem can make the experiment questionable, given that between, for examp
 > + Only if mice achieve a successful trial the Inter-trial interval (3 sec) will be applied and a new pair of ports will be selected to be available.
 > + **Criteria for moving to next stage: 500 initiated trials for 3 consecutive days with greater than 50% rewarded(we were unable to achieve this, consider moving boundary for moving to next stage downward)**
 
-#### Set parameters
+##### Set parameters
 
 > + Session Info: default
 > + Water delivery: 0.03 sec
@@ -269,6 +259,18 @@ This problem can make the experiment questionable, given that between, for examp
 > + Task mode: cooperate
 > + **Next port after fail:** Fixed
 
+
+----
+
+## Predictions
+
++ This section describes my predictions for this experiment. This is the base that support the prosperity of my proposal. Are my results different from the ones of the alternate experiment? What kind of result do I expect?
+
+>  **Marked difference between perforate and solid barrier:** Given the decrease of the ease to grasp a pattern, I would expect a worst performance in the solid barrier compared with the perforate barrier, since would be harder to synchronize their movements to discover the available port.
+>  
+>  **Less performace in all assays compared with the alternate experiment in early stages:** Since mice won't know what port is available, probably they will achieved less successful trials in the same time during the early stages.
+>  
+>  **Delayed learning:** Maybe mice could learn the mechanism's functionality in a slower rate than with the alternate experiment.
 
 ----
 
