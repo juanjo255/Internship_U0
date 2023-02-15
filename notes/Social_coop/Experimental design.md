@@ -8,10 +8,10 @@
 ----
 
 ## General points
-> + This section describes the points that all stages fullfilled.  
+> + This section describes the points that all stages fullfill.  
 >>  + Inter-trial interval is only applied if mice achieve a successful trial (meaning of successfull trial can change with each stage).
 >>  + A new randomly pair of ports is selected only if mice achieve a successful trial.
->>  + Limited use of ports is established in all stages.
+>>  + Limited use of ports is established in all stages, that is, a port will not be available more than n times in a row.
 
 
 ---
@@ -196,23 +196,23 @@
 ### Criteria to move to the next stage
 
 > + **Precedent (Brigid):** Criteria for moving to the next stage were developed by first estimating what approximate performance would demonstrate that the mice had mastered the task they are on. After that, adjustments were made based on what level the mice actually were able to perform at in a realistic amount of time. In summary, the criteria for moving from one stage to another should allow for the mice to fully learn the stage they are on. If you are changing parameters there will probably be some guesswork and you will probably have to experiment to find the right criteria for moving to the next stage.
-> + **My thinking:** **How would I estimate the criteria for move forward?** using the collected data, I would compute the mean of the rewards obtained by each mouse in stage 1 (since there they are working alone), then if they are working together we can assume them as single individual, so the theorical estimation would be that, to move to the next stage, they would have to achieve a number of rewards similar **(The question then would be how much difference can be between both values? (standard deviation? t-test?))** to the computed mean. However, all is behavior-dependent. Lets see an example:
+> + **My thinking:** **How would I estimate the criteria for move forward?** using the collected data, I would compute the mean of the rewards obtained by each mouse in stage 1 (since there they are working alone), then if they are working together we can assume them as single individual, so the theorical estimation would be that, to move to the next stage, they would have to achieve in average a number of rewards similar to the computed for stage 1 **(The question then would be how much difference can be between both values? (standard deviation?? t-test??))**. However, all is behavior-dependent. Lets see an example:
 > ![[means.png]]
-> + The image above shows three means. Pretty similar, right? 
-> + **(I am just rambling now, this would be applied to move from stage 2)** When comparing the first day of training of each stage with any of the next days we have to see an increment close to the 25% (if they are not working together as in the first day of training, each mouse has 50% of reaching the correct port and to receive the reward together they have 25%. If they start to work together assuming that they are a same individual they will have chances of 50% to get the reward. Then, increment of 25%). **Lets see some examples in brigids data**
+> + **The image above shows three means from 3 different stages (from stage 1 to 4 from top to bottom, stage 3 ignored). similar values?** 
+> + **(I am just rambling now, this would be applied to move from stage 2)** this approach is hard to see in brigid's data, because of the go-and-come patter that was taught since stage 1, however reasoning goes as follow: When comparing the first day of training of each stage with any of the next days we have to see an increment close to the 25% (if they are not working together as in the first day of training, each mouse has 50% of reaching the correct port and to receive the reward together they have 25%. If they start to work together assuming that they are a same individual they will have chances of 50% to get the reward. Then, increment of 25%). **Lets see some examples in brigids data**
 ![[Pasted image 20230214153904.png]]
-In the image above, we can see increments up to 23%, however is hard to see the difference here, because of the go-and-come patter that was taught since stage 1.
+> In the image above, from **2022-11-04** onwards, we can see increases of up to 23%.
+
 ----
 
 ## Results
 
-> + First of all we need to show that the training is working. To do that **we can compare the number of rewards achieved in each day** and plot that in a line chart. example: 
-> ![[coop.png]]
 > + **How do we know our experiment success, in other words, how can we know that mice are cooperating?**
->> Well, using the approach of perforate barrier and solid barrier, we should see a decrease in performance (% win trials) in isolation (solid barrier) compared with access to most senses (perforate barrier).
+>> Well, using the approach of perforate barrier and solid barrier, we should see a **decrease** in the rewards obtained in isolation (solid barrier) compared with access to most senses (perforate barrier).
 > + **How do we show that decreasing?**
->>  I propose to use the bar chart. **Why?** because this plot let me compare a numerical variable (average mutual rewards) measured in different categorical variables (solid and perforate barrier). 
->>  **Average mutal rewards=** sum of the rewards obtained in every day of evaluation divide by the number of evaluated days. Example: 
->>>  In this case we would change cumulative mutual rewards for average mutual regard. **Why?** because we standarized by time (1 hr a day). How many rewards they can achieved in 1 hr? 
->>> The initiation of the trial is subject to the behavior of every mice (what if one is thistier than the other one?), so to compute by performance we would have to standirized by trials (?), which is harder, because if one mouse started initiating many trials and the other is not coopering then the performance would be lower and I think is a bias.
+>>  I propose to use the bar chart. **Why?** because this plot let me compare a numerical variable (acummulated rewards) measured in different categorical variables (solid and perforate barrier). 
+>>  **Example of a bar chart:** 
+>>>  In this case we would change performance for average mutual regard. **Why?** because we standarized by time (1 hr a day). How many rewards they can achieved in 1 hr? 
+>>>  The initiation of the trial is subject to the behavior of every mice (what if one is thistier than the other one?), so to compute by performance we would have to standirized by trials (?), which is harder, because if one mouse started initiating many trials and the other is not coopering then the performance would be lower and I think it is a bias.
+>>>  Example:
 ![[Screenshot 2023-02-13 at 10.21.59 AM.png | 400]]
