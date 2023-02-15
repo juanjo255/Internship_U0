@@ -1,7 +1,6 @@
 
 + This document describes the experimental design that will be apply to achieved the objectives of the social cooperation project escribed in [[Seek-and-find approach description]] document.
 
-
 ```toc
 ```
 
@@ -174,34 +173,6 @@
 
 ----
 
-## Troubleshootings
-
-### Hard learning
-
-> + **I was thinking that could be difficult to mice jump from the stage 1 to stage 2** where stage 1 teachs them to use ports and immediately stage 2 force them to discover the available pair of ports and receive reward together.
->> + **Possible solution:** Maybe mice will need an extra stage before stage 2 same as this but with lights turning on indicating availability of port and not releasing water until they both arrive to the borth within a time window once a trial has started.
-
-### Desperate behavior
-
-> + I was thinking that the inter-trial interval might give them **despair** since nothing happens during that time. That could be leading them to not focus on the purpose of the task, which is to find the available port together after a period of time has passed, therefore they do not learn or learn take much time.
->> + **Possible solution:** Maybe during early stages, turn all lights on during the inter-trial interval in a static mode o flashing mode (maybe this could produce a stress state), in order to teach them that their is a moment of nothing happening.
->> + This will be applied only if I decide to establish a intermediate stage between stage 1 and 2.
-
-### Incomplete isolation
-
->  + **This is more a futuristic concern.**
->  + Do they can hear each other through the solid barrier? In some of the videos I watched I noticed that during the solid barrier they were almost like capable of arrive to the same side as their partner, could be only coincidence, but I started suspect that they can hear each other and that is a kind of communication.
-
-
-### Criteria to move to the next stage
-
-> + **Precedent (Brigid):** Criteria for moving to the next stage were developed by first estimating what approximate performance would demonstrate that the mice had mastered the task they are on. After that, adjustments were made based on what level the mice actually were able to perform at in a realistic amount of time. In summary, the criteria for moving from one stage to another should allow for the mice to fully learn the stage they are on. If you are changing parameters there will probably be some guesswork and you will probably have to experiment to find the right criteria for moving to the next stage.
-> + **My thinking:** **How would I estimate the criteria for move forward?** using the collected data, I would compute the mean of the rewards obtained by each mouse in stage 1 (since there they are working alone), then if they are working together we can assume them as single individual, so the theorical estimation would be that, to move to the next stage, they would have to achieve in average a number of rewards similar to the computed for stage 1 **(The question then would be how much difference can be between both values? (standard deviation?? t-test??))**. However, all is behavior-dependent. Lets see an example:
-> ![[means.png]]
-> + **The image above shows three means from 3 different stages (from stage 1 to 4 from top to bottom, stage 3 ignored). similar values?** 
-> + **(I am just rambling now, this would be applied to move from stage 2)** this approach is hard to see in brigid's data, because of the go-and-come patter that was taught since stage 1, however reasoning goes as follow: When comparing the first day of training of each stage with any of the next days we have to see an increment close to the 25% (if they are not working together as in the first day of training, each mouse has 50% of reaching the correct port and to receive the reward together they have 25%. If they start to work together assuming that they are a same individual they will have chances of 50% to get the reward. Then, increment of 25%). **Lets see some examples in brigids data**
-![[Pasted image 20230214153904.png]]
-> In the image above, from **2022-11-04** onwards, we can see increases of up to 23%.
 
 ----
 

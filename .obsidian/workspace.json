@@ -4,18 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "2d09d04c9f89ca7c",
+        "id": "9589e9ba4023904c",
         "type": "tabs",
         "children": [
           {
-            "id": "7227ba5b48ffb37f",
+            "id": "7bb96bca9a726164",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "notes/Social_coop/Seek-and-find approach description.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "32a499c3379e16fb",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "notes/Ilustrations/coop.png"
               }
             }
           }
@@ -85,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "notes/Social_coop/Seek-and-find approach description.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "notes/Social_coop/Seek-and-find approach description.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "notes/Social_coop/Seek-and-find approach description.md"
               }
             }
           }
@@ -146,6 +156,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7227ba5b48ffb37f",
-  "lastOpenFiles": []
+  "active": "7bb96bca9a726164",
+  "lastOpenFiles": [
+    "notes/Ilustrations/coop.png",
+    "notes/Social_coop/Seek-and-find approach description.md",
+    "notes/Ilustrations/scatter_line_chart.png",
+    "Seek-and-find approach descriptionTable of contents.md",
+    "current note.md",
+    "notes/Social_coop/Experimental design.md",
+    "notes/Personal data UO.md",
+    "README.md"
+  ]
 }
