@@ -22,7 +22,7 @@
 
 ----
 
-### [[Stage 1]]
+### Stage 1
 
 #### Objectives
 
@@ -65,7 +65,7 @@
 
 ----
 
-### [[Stage 2]]
+### Stage 2
 
 #### Objectives
 
@@ -103,7 +103,7 @@
 ----
 
 
-### [[Stage 3]]
+### Stage 3
 
 #### Objectives
 
@@ -138,7 +138,7 @@
 ----
 
 
-### [[Stage 4]]
+### Stage 4
 
 #### Objectives
 
@@ -167,11 +167,6 @@
 >> + Barrier type: perforated
 > + Task mode: cooperate
 > + **Next port after fail:** Fixed
-
-
-
-
-----
 
 
 ----
