@@ -1,10 +1,32 @@
 Aqui escribo los pasos que debo completar en las modificaciones del codigo fuente el cooperation rig para realizar el entrenamiento propuesto, conocido como: Seek-and-find approach.
 
-1. Inter-trial interval: Se aplicará solo cuando haya un caso de exito. Para ello modifico la transición al Estado de "iti" en todos los modos para que solo se active en sus respectivos casos de exito.
+1. **Inter-trial interval:** Se aplicará solo cuando haya un caso de exito. Para ello modifico la transición al Estado de "iti" en todos los modos para que solo se active en sus respectivos casos de exito, ademas se movió al principio del código.
 	Ejemplo:
+```
+	self.sm.add_state(name='iti', statetimer= 
+	interTrialInterval if previousOutcome > 0 and previousOutcome < 4 else 0,
+	transitions={'Tup':'readyForNextTrial'}, outputsOff=[LED1, LED2, Water1, 
+	Water2])
+```
+2. **Cambio de par de puertos:** Solo se cambiara el puerto en cada stage si el ultimo trial ha sido exitoso (siendo el significado de exito dependiente del stage). Para esto se creo un metodo para la clase "Paradigm" llamada swith_active_side.
+	Ejemplo:
+
+```
+def switch_active_side(self, previousOutcome, active_side) -> tuple:
 	
-		self.sm.add_state(name='iti', statetimer= interTrialInterval if previousOutcome > 0 and previousOutcome < 4 else 0 ,
-		transitions={'Tup':'readyForNextTrial'},
-		outputsOff=[LED1, LED2, Water1, Water2])
-2. Cambio de par de puertos: Solo se cambiara el puerto en cada stage si el ultimo trial ha sido exitoso (siendo el significado de exito dependiente del stage).
-	Ejemplo: 
+	if previousOutcome:
+		active_side=np.random.choice(['north','south'])
+	if (active_side=='north'):
+		port1in = 'S1in'; port2in = 'S2in'
+		LED1 = 'S1LED'; LED2 = 'S2LED'
+		Water1 = 'S1Water'; Water2 = 'S2Water'
+	elif (active_side=='south'):
+		port1in = 'N1in'; port2in = 'N2in'
+		LED1 = 'N1LED'; LED2 = 'N2LED'
+		Water1 = 'N1Water'; Water2 = 'N2Water'
+		
+	self.params['activeSide'].set_string(active_side)
+	return (port1in,port2in,LED1,LED2,Water1,Water2)
+```
+
+3. **Uso limitado de puertos:** A la funcion anterior hay que hacerle un retoque. Se le debe agregar una variable para medir que un puerto no se elija más de n veces seguidas durante el cambio aleatorio.

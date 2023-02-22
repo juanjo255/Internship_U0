@@ -182,3 +182,8 @@
 >>>  The initiation of the trial is subject to the behavior of every mice (what if one is thistier than the other one?), so to compute by performance we would have to standirized by trials (?), which is harder, because if one mouse started initiating many trials and the other is not coopering then the performance would be lower and I think it is a bias.
 >>>  Example:
 ![[Screenshot 2023-02-13 at 10.21.59 AM.png | 400]]
+
+
+## Metadata
+
+coop010
