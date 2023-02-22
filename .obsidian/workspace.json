@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/Social_coop/Seek-and-find approach description.md",
+                "file": "notes/Código seek-and-find.md",
                 "mode": "source",
                 "source": false
               }
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/Social_coop/Seek-and-find approach description.md",
+                "file": "notes/Código seek-and-find.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/Social_coop/Seek-and-find approach description.md",
+                "file": "notes/Código seek-and-find.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/Social_coop/Seek-and-find approach description.md"
+                "file": "notes/Código seek-and-find.md"
               }
             }
           }
@@ -158,8 +158,8 @@
   },
   "active": "7bb96bca9a726164",
   "lastOpenFiles": [
-    "notes/Ilustrations/coop.png",
     "notes/Social_coop/Seek-and-find approach description.md",
+    "notes/Ilustrations/coop.png",
     "notes/Ilustrations/scatter_line_chart.png",
     "Seek-and-find approach descriptionTable of contents.md",
     "current note.md",
