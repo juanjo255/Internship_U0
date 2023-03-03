@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/Código seek-and-find.md",
+                "file": "notes/Personal data UO.md",
                 "mode": "source",
                 "source": false
               }
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/Código seek-and-find.md",
+                "file": "notes/Personal data UO.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/Código seek-and-find.md",
+                "file": "notes/Personal data UO.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/Código seek-and-find.md"
+                "file": "notes/Personal data UO.md"
               }
             }
           }
@@ -158,9 +158,9 @@
   },
   "active": "7bb96bca9a726164",
   "lastOpenFiles": [
-    "notes/Personal data UO.md",
-    "notes/Código seek-and-find.md",
     "~$Training_weight_record.xlsx",
+    "notes/Código seek-and-find.md",
+    "notes/Personal data UO.md",
     "notes/Social_coop/Seek-and-find approach description.md",
     "notes/Ilustrations/coop.png",
     "notes/Ilustrations/scatter_line_chart.png",
